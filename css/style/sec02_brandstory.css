@@ -1,0 +1,229 @@
+.sec02{
+  /* height: 99vh; */
+  height: 1075px;
+
+  /* background-color: lightgray; */
+}
+
+.title2{
+  font-size: 200px;
+  font-weight : 100;
+  color: #06357A;
+  position: absolute;
+  top: 40px;
+  right: 6.25vw;
+  z-index: 9;
+}
+
+.container2{
+  width: 87%;
+  height: 734px;
+  float: right;
+  margin-top: 180px;
+  position: relative;
+
+  background-color: lightcyan;
+}
+
+.page_num2{
+  display: flex;
+  
+  position: absolute;
+  bottom: 105px;
+  /* left: 147px; */
+  left: 9%;
+  z-index: 10;
+}
+
+.page_num2 p{
+  color: #fff;
+  font-size: 28px;
+  display: flex;
+  margin-right: 18px;
+}
+
+.page_num2 span{
+  color: #E6E6E6;
+  font-size: 22px;
+  transform: translate(10px, 6px);
+}
+
+.page_num2 img{
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+.con2{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+  background-color: lightslategray;
+}
+
+
+.img{
+  width: 100%;
+  height: 100%;
+  background: url(../../img/1_brandstory/5.jpg) center/cover;
+}
+
+.con2_blind{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* z-index: 99; */
+  background-color: rgba(0,0,0,0.3);
+}
+
+.con2 p{
+  width: 520px;
+  position: absolute;
+  bottom: 205px;
+  /* left: 147px; */
+  left: 9%;
+  font-size: 28px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 58px;
+}
+
+
+/* 반응형 1400px */
+@media all and (max-width : 1400px){
+  .title2 {
+    font-size: 160px;
+    top: 60px;
+    /* right: 60px; */
+}
+}
+
+
+
+/* 반응형 1080px */
+@media all and (max-width : 1080px){
+  .title2 {
+    font-size: 120px;
+    top: 80px;
+  }
+
+  .con2 p{
+    width: 70%;
+  }
+}
+
+
+
+/* 반응형 900px */
+@media all and (max-width : 900px){
+  .sec02{
+    height: 935px;
+  }
+  .title2{
+    font-size: 80px;
+    top: 115px;
+  }
+
+  .container2{
+    height: 600px;
+  }
+
+  .con2 p{
+    bottom: 135px;
+  }
+
+  .page_num2{
+    bottom: 55px;
+  }
+}
+
+
+
+/* 반응형 720px */
+@media all and (max-width : 720px){
+  .sec02 {
+    height: 755px;
+  }
+  
+  .title2{
+    font-size: 60px;
+    top: 70px;
+  }
+
+  .container2{
+    margin-top: 120px;
+    height: 500px;
+  }
+
+  .con2 p{
+    font-size: 22px;
+    line-height: 40px;
+    bottom: 115px;
+  }
+
+  .page_num2 p{
+    font-size: 20px;
+  }
+
+  .page_num2 span{
+    font-size: 16px;
+    transform: translate(8px, 4px);
+  }
+
+  .page_num2 img {
+    width: 25px;
+    height: 25px;
+    transform: translateY(0px);
+}
+}
+
+
+
+
+/* 반응형 390px */
+@media all and (max-width : 450px){
+  .sec02 {
+    height: 370px;
+  }
+
+  .title2 {
+    font-size: 55px;
+    top: 40px;
+  }
+
+  .container2 {
+    width: 95%;
+    margin-top: 85px;
+    height: 252px;
+  }
+
+  .con2 p {
+    font-size: 14px;
+    line-height: 26px;
+    bottom: 45px;
+  }
+
+  .page_num2 {
+    bottom: 20px;
+  }
+
+  .page_num2 p {
+    font-size: 12px;
+    margin-right: 9px;
+  }
+
+  .page_num2 span {
+    font-size: 12px;
+    transform: translate(5px, 0px);
+  }
+
+  .page_num2 img {
+    width: 15px;
+    height: 15px;
+    transform: translateY(-1px);
+  }
+}

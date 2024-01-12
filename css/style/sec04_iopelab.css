@@ -1,0 +1,121 @@
+.sec04{
+  /* height: 67vh; */
+  height: 720px;
+  background: url(../../img/3_iopelab/1.jpg) center/cover;
+
+  /* background-color: lightgray; */
+}
+
+.reac_inner04{
+  display: none;
+}
+
+.sec04 .sec_inner{
+  padding: 0 120px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.txt_box4{
+  width: 29vw;
+  height: 316px;
+  padding: 44px 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-top: 355px;
+  
+  background-color: #fff;
+}
+
+.title4{
+  font-size: 38px;
+  color: #06357A;
+  margin-bottom: 25px;
+}
+
+.sub_txt4{
+  font-size: 22px;
+  line-height: 36px;
+  color: #06357A;
+  margin-bottom: 30px;
+}
+
+.more_box4{
+  width: 146px;
+  height: 50px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #06357A;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+/* 반응형 1080px */
+@media all and (max-width : 1080px){
+  .sec04{
+    background: none;
+    height: fit-content;
+    
+    /* background-color: lightgray; */
+  }
+
+  .sec04 .sec_inner{
+    display: none;
+  }
+
+  .reac_inner04{
+    display: block;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 40px 0;
+    box-shadow: 10px 10px 30px rgba(0,0,0, 0.08);
+    /* border: 1px solid #988; */
+    padding: 4.5vh 4vw;
+  }
+
+  .reac_inner04 img{
+    width: 82vw;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+/* 반응형 390px */
+@media all and (max-width : 450px){
+  .reac_inner04 {
+    width: 90vw;
+    box-sizing: border-box;
+    padding: 2vh 4vw;
+    box-shadow: 14px 17px 20px rgba(0,0,0, 0.02);
+  }
+
+  .reac_inner04 img {
+    margin-bottom: 10px;
+  }
+
+  .title4 {
+    font-size: 26px;
+    margin-bottom: 12px;
+  }
+
+  .sub_txt4 {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 25px;
+  }
+
+  .more_box4 {
+    width: 95px;
+    height: 32px;
+    font-size: 14px;
+  }
+
+
+
+  
+}

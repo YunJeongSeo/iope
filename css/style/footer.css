@@ -1,0 +1,204 @@
+footer{
+  height: 220px;
+  
+  /* background-color: lightblue; */
+  background-color: #000;
+}
+
+.footer_inner{
+  width: 100%;
+  padding: 0 120px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.topF_wrap{
+  border-bottom: 1px solid #4E4E4E;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 25px;
+}
+
+.sns_wrap{
+  display: flex;
+}
+
+.sns_wrap li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-right: 20px;
+}
+
+.sns_wrap img{
+  width: 20px;
+  height: 20px;
+  transform: translate(-3%, 6%);
+}
+
+.langue{
+  display: flex;
+  font-size: 16px;
+  color: #fff;
+  padding: 8px;
+  border-bottom: 1px solid #fff;
+  position: relative;
+  cursor: pointer;
+}
+
+.langue span{
+  margin-left: 25px;
+}
+
+.lang{
+  display: none;
+
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+}
+
+.bottomF_wrap{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.left_F{
+  font-size: 14px;
+  color: #BDBDBD;
+}
+
+.left_F p:first-child{
+  margin-bottom: 10px;
+}
+
+.right_F{
+  display: flex;
+  font-size: 16px;
+}
+
+.right_F li{
+  margin-left: 40px;
+  
+}
+
+.right_F a{
+  color: #fff;
+}
+
+.top_right, .bottom_right{
+  display: flex;
+}
+
+
+
+/* 반응형 1400px */
+@media all and (max-width : 1400px){
+
+  footer{
+    height: 260px;
+  }
+
+  .bottomF_wrap{
+    flex-direction: column-reverse;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 35px;
+  }
+
+  .left_F{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .top_right li:first-child{
+    margin-left: 0;
+  }
+
+  .right_F{
+    width: 100%;
+    justify-content: center;
+  }
+  .right_F li{
+    margin-left: 2vw;
+  }
+
+
+}
+
+
+/* 반응형 900px */
+@media all and (max-width : 900px){
+  .right_F{
+    font-size: 14px;
+  }
+}
+
+
+/* 반응형 800px */
+@media all and (max-width : 800px){
+  .right_F{
+    width: 80%;
+    font-size: 14px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .right_F li{
+    margin-left: 0;
+  }
+
+  .top_right, .bottom_right{
+    justify-content: space-between;
+  }
+
+  .top_right{
+    margin-bottom: 10px;
+  }
+}
+
+
+
+/* 반응형 650px */
+@media all and (max-width : 650px){
+  .footer_inner{
+    padding: 0 20px;
+  }
+
+  .topF_wrap{
+    padding: 30px 0 15px;
+  }
+
+  .bottomF_wrap{
+    margin: 30px 0;
+  }
+}
+
+
+
+/* 반응형 450px */
+@media all and (max-width : 450px){
+  .right_F{
+    font-size: 12px;
+  }
+
+  .left_F{
+    font-size: 10px;
+  }
+}
+
+
+
+/* 반응형 390px */
+@media all and (max-width : 390px){
+  
+}

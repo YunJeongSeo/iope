@@ -1,0 +1,82 @@
+header{
+  height: 80px;
+  position: fixed;
+  z-index: 9;
+  
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.header_inner{
+  width: 100%;
+  height: 100%;
+  padding: 0 120px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu_wrap{
+  width: 580px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu_wrap a{
+  font-size: 18px;
+  color: #fff;
+}
+
+.icon_wrapH{
+  display: flex;
+}
+
+.icon_wrapH img{
+  width: 30px;
+  height: 30px;
+}
+
+.menu{
+  margin-left: 25px;
+}
+
+
+/* 반응형 1300px */
+@media all and (max-width : 1300px){
+
+  .menu_wrap{
+    display: none;
+  }
+
+
+}
+
+
+/* 반응형 1080px */
+@media all and (max-width : 1080px){
+  .header_inner{
+    padding: 0 5%;
+  }
+}
+
+
+
+/* 반응형 390px */
+@media all and (max-width : 450px){
+  header{
+    height: 50px;
+  }
+
+  .logo{
+    width: 60px;
+  }
+
+  .icon_wrapH img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .menu {
+    margin-left: 17px;
+  }
+}

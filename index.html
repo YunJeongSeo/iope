@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>아이오페</title>
+  <link rel="stylesheet" href="css/styel.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <style>
+    /* .swiper {
+      width: 62vw;
+      height: 300px;
+      width: fit-content;
+    } */
+
+    .swiper-slide{
+      width: 30%;
+    }
+
+    .swiper-scrollbar{
+      margin-left: 17px;
+    }
+
+    @media (max-width: 450px){
+      .swiper-slide {
+          width: 190px;
+      }
+
+    }
+
+    
+  </style>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- header -->
+    <header>
+      <div class="header_inner">
+        <div class="logo"><a href="#"><img src="img/5_icon/logo.png" alt="logo"></a></div>
+        <ul class="menu_wrap">
+          <li><a href="#">베스트셀러</a></li>
+          <li><a href="#">제품</a></li>
+          <li><a href="#">아이오페 소개</a></li>
+          <li><a href="#">아이오페 랩</a></li>
+        </ul>
+        <div class="icon_wrapH">
+          <div class="login"><a href="#"><img src="img/5_icon/login_white.png" alt="login"></a></div>
+          <div class="menu"><a href="#"><img src="img/5_icon/menu_white.png" alt="menu"></a></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- section01 (main page) -->
+    <section class="sec01">
+      <div class="main_img"></div>
+      <p>IOPE</p>
+    </section>
+
+    <!-- section02 (brand story)-->
+    <section class="sec02">
+      <div class="sec_inner">
+        <p class="title2">Brand Story</p>
+        <div class="container2">
+          <div class="page_num2">
+            <p>01 <span>/ 03</span></p>
+            <img src="img/5_icon/arrow.png" alt="perv">
+          </div>
+          <div class="con2">
+            <div class="img"></div>
+            <div class="con2_blind"></div>
+            <p>
+              국내 기능성 화장품 시장을 대줄화한 아이오페는
+              Bio Science 근간의 효능 성분 'Bio Origin'과
+              전달기술 'Bio Tech' 연구를 통해
+              확실하게 검증한 고효능 솔루션을 제공합니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section03 (bset seller)-->
+    <section class="sec03">
+      <div class="sec03_blind"></div>
+      <div class="sec_inner">
+        <div class="title_txt3">Best Seller</div>
+        <div class="container3">
+          <div class="txt_box3">
+            <p>
+              로렘 입숨은 출판이나 그래픽 
+              디자인 분야에서 폰트, 타이포
+              그래피, 레이아웃 같은 그래픽
+              요소나 시각적 
+            </p>
+            <p class="more_btn3">더보기 +</p>
+          </div>
+          <div class="con_box3">
+            <div class="left3">
+              <div class="con3" data-aos="fade-up">
+                <div class="title3">serum</div>
+                <div class="sub3">레티놀 슈퍼 바운스 세럼</div>
+                <img src="img/2_bestproduct/1_1.png" alt="best seller">
+              </div>
+              <div class="con3" data-aos="fade-up">
+                <div class="title3">serum</div>
+                <div class="sub3">레티놀 슈퍼 바운스 세럼</div>
+                <img src="img/2_bestproduct/2_1.png" alt="best seller">
+              </div>
+            </div>
+            <div class="right3">
+              <div class="con3" data-aos="fade-up">
+                <div class="title3">serum</div>
+                <div class="sub3">레티놀 슈퍼 바운스 세럼</div>
+                <img src="img/2_bestproduct/3_1.png" alt="best seller">
+              </div>
+              <div class="con3" data-aos="fade-up">
+                <div class="title3">serum</div>
+                <div class="sub3">레티놀 슈퍼 바운스 세럼</div>
+                <img src="img/2_bestproduct/4_1.png" alt="best seller">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section04 (iope lab)-->
+    <section class="sec04">
+      <div class="sec_inner">
+        <div class="txt_box4">
+          <div class="title4">IOPE LAB</div>
+          <p class="sub_txt4">
+            새로워진 아이오페 랩의 피부 진단서비스로<br>
+            피부의 미래를 바꿔보세요
+          </p>
+          <div class="more_box4">둘러보기</div>
+        </div>
+      </div>
+
+      <!-- 반응형 ~1080 -->
+      <div class="reac_inner04">
+        <img src="img/3_iopelab/1.jpg" alt="reaction lab">
+        <div class="title4">IOPE LAB</div>
+          <p class="sub_txt4">
+            새로워진 아이오페 랩의 피부 진단서비스로<br>
+            피부의 미래를 바꿔보세요
+          </p>
+          <div class="more_box4">둘러보기</div>
+      </div>
+    </section>
+
+    <!-- section05 (review)-->
+    <section class="sec05">
+      <div class="swiper sec_inner">
+        <div class="txt_box5">
+          <div class="title5">Best Review</div>
+          <div class="more_btn5">더보기 +</div>
+        </div>
+        <div class="swiper-wrapper container5">
+          <div class="swiper-slide con5">
+          <img src="img/4_review/5.jpg" alt="review">
+            <div class="sub_txt5">레티놀 슈버 바운스 세럼</div>
+            <div class="con_title5">레티놀 슈버 바운스 세럼</div>
+            <p>#제품제공 아이오페 레티놀 슈퍼 바운스 세럼...</p>
+          </div>
+          <div class="swiper-slide con5">
+            <img src="img/4_review/5.jpg" alt="review">
+            <div class="sub_txt5">레티놀 슈버 바운스 세럼</div>
+            <div class="con_title5">레티놀 슈버 바운스 세럼</div>
+            <p>#제품제공 아이오페 레티놀 슈퍼 바운스 세럼...</p>
+          </div>
+          <div class="swiper-slide con5">
+            <img src="img/4_review/5.jpg" alt="review">
+            <div class="sub_txt5">레티놀 슈버 바운스 세럼</div>
+            <div class="con_title5">레티놀 슈버 바운스 세럼</div>
+            <p>#제품제공 아이오페 레티놀 슈퍼 바운스 세럼...</p>
+          </div>
+        </div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </section>
+
+    <!-- section06 (news)-->
+    <section class="sec06">
+      <div class="sec06_inner">
+        <div class="news_wrap">
+          <div class="title_txt">News</div>
+          <div class="container6">
+            <div class="con6">
+              <img src="img/6_news/1.jpg" alt="news" class="news_img">
+              <div class="blind_box"></div>
+              <div class="newtxt_box">
+                <div class="con_title">보도자료</div>
+                <div class="new_title">보도자료 제목이나 내용이나 그런거 적을 예정입니다.</div>
+              </div>
+            </div>
+            <div class="con6">
+              <img src="img/6_news/2.jpg" alt="news" class="news_img">
+              <div class="blind_box"></div>
+              <div class="newtxt_box">
+                <div class="con_title">보도자료</div>
+                <div class="new_title">보도자료 제목이나 내용이나 그런거 적을 예정입니다.</div>
+              </div>
+            </div>
+            <div class="con6">
+              <img src="img/6_news/3.jpg" alt="news" class="news_img">
+              <div class="blind_box"></div>
+              <div class="newtxt_box">
+                <div class="con_title">보도자료</div>
+                <div class="new_title">보도자료 제목이나 내용이나 그런거 적을 예정입니다.</div>
+              </div>
+            </div>
+            <div class="con6">
+              <img src="img/6_news/4.jpg" alt="news" class="news_img">
+              <div class="blind_box"></div>
+              <div class="newtxt_box">
+                <div class="con_title">보도자료</div>
+                <div class="new_title">보도자료 제목이나 내용이나 그런거 적을 예정입니다.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skin_wrap">
+          <div class="title_txt">Skin News</div>
+          <div class="container6">
+            <div class="con6">
+              <img src="img/6_news/skinnews_2.jpg" alt="skin news" class="skin_img">
+              <div class="blind_box"></div>
+              <div class="newtxt_box">
+                <div class="skin_title">December</div>
+                <div class="skinsub_title">Vol 1. 수면 부족과 피부</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer_inner">
+        <div class="topF_wrap">
+          <ul class="sns_wrap">
+            <li><a href="#"><img src="img/5_icon/sns-facebook.png" alt="face book"></a></li>
+            <li><a href="#"><img src="img/5_icon/sns-instagram.png" alt="instar"></a></li>
+            <li><a href="#"><img src="img/5_icon/sns-kakaotalk.png" alt="kakao"></a></li>
+            <li><a href="#"><img src="img/5_icon/sns-youtube.png" alt="youtube"></a></li>
+          </ul>
+
+          <div class="langue">
+            <p>Language <span>+</span></p>
+            <ul class="lang">
+              <li>KOR</li>
+              <li>ENG</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bottomF_wrap">
+          <div class="left_F">
+            <p>고객서비스센터(수신자요금 부담) 080-023-5454(월~금, 09:00~18:00)</p>
+            <p>© AMOREPACIFIC CORPORATION. All rights reserved.</p>
+          </div>
+
+          <ul class="right_F">
+            <ul class="top_right">
+              <li><a href="#">서비스이용약관</a></li>
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">UGC이용약관</a></li>
+
+            </ul>
+            <ul class="bottom_right">
+              <li><a href="#">개인정보처리방침</a></li>
+              <li><a href="#">사이트맵</a></li>
+              <li><a href="#">영상정보처리방침</a></li>
+
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    
+    <!-- Slider main container
+    <div class="swiper">
+    Additional required wrapper
+    <div class="swiper-wrapper">
+      Slides
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
+    </div>
+    If we need pagination
+    <div class="swiper-pagination"></div>
+
+    If we need navigation buttons
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    If we need scrollbar
+    <div class="swiper-scrollbar"></div> -->
+</div>
+
+    <!-- AOS script -->
+    <script>
+      AOS.init();
+    </script>
+
+
+    <!-- Swiper script -->
+    <script>
+      const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        // direction: 'vertical',
+        // loop: true,
+        slidesPerView: 'auto',
+
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+      });
+    </script>
+
+  </div>
+</body>
+</html>

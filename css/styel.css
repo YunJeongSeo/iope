@@ -1,0 +1,12 @@
+@import url(reset.css);
+@import url(common.css);
+
+/* style */
+@import url(style/header.css);
+@import url(style/sec01_main.css);
+@import url(style/sec02_brandstory.css);
+@import url(style/sec03_bestseller.css);
+@import url(style/sec04_iopelab.css);
+@import url(style/sec05_review.css);
+@import url(style/sec06_news.css);
+@import url(style/footer.css);
